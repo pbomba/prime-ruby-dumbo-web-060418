@@ -12,11 +12,12 @@ def prime?(number)
 				i += 1
 				break if i == number
 		  end
+
+	end
+	end
 		if i == number
 			return TRUE
 		else
 			return FALSE
 		end
-	end
-	end
 end
