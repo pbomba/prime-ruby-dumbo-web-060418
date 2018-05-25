@@ -12,7 +12,6 @@ def prime?(number)
 				i += 1
 				break if i == number
 		  end
-
 	end
 	end
 		if i == number
