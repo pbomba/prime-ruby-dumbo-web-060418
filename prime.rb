@@ -1,8 +1,8 @@
 def prime?(number)
 	if number <= 0
-		return false
+		return FALSE
 	elsif number == 1
-		return false
+		return FALSE
 	else
 		i = 2
 		while i < number do
@@ -11,11 +11,11 @@ def prime?(number)
 			else
 				i += 1
 				break if i == number
-		end
+		  end
 		if i == number
-			return true
+			return TRUE
 		else
-			return false
+			return FALSE
 		end
 	end
 	end
